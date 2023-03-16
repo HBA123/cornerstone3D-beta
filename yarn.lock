@@ -2539,10 +2539,10 @@
   resolved "https://registry.yarnpkg.com/@cornerstonejs/codec-openjph/-/codec-openjph-2.4.2.tgz#e96721d56f6ec96f7f95c16321d88cc8467d8d81"
   integrity sha512-lgdvBvvNezleY+4pIe2ceUsJzlZe/0PipdeubQ3vZZOz3xxtHHMR1XFCl4fgd8gosR8COHuD7h6q+MwgrwBsng==
 
-"@cornerstonejs/core@^0.31.0":
-  version "0.31.2"
-  resolved "https://registry.npmjs.org/@cornerstonejs/core/-/core-0.31.2.tgz#0087cb4445962c82125ae2dddff49aadcfab634d"
-  integrity sha512-RIxKF/3gGvx8Rca91YlAkUF0DVICedHr6Xis9x8EvOIm+DraP1h3FSQs6bO77FdalAEPGyDjG5U8ZfsAkAXN4g==
+"@cornerstonejs/core@^0.33.2":
+  version "0.33.2"
+  resolved "https://registry.yarnpkg.com/@cornerstonejs/core/-/core-0.33.2.tgz#63aea3eb9787622be0c75052696119a0e58117e6"
+  integrity sha512-iRHq7WIcZOUxOIMV9KEY7iJjTpcpk7vJPAIZM5tqVvTIbcfaACmxpTlpc2NPqT52o0shRQImIkMFiotUKx0Pug==
   dependencies:
     detect-gpu "^4.0.45"
     lodash.clonedeep "4.5.0"
