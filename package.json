@@ -16,6 +16,7 @@
     "build": "lerna run build --stream",
     "build:umd": "lerna run build:umd --stream",
     "build:update-api": "lerna run build:update-api",
+    "clean": "lerna run clean",
     "example": "node ./utils/ExampleRunner/example-runner-cli.js",
     "all-examples": "node ./utils/ExampleRunner/build-all-examples-cli.js --fromRoot",
     "build-all-examples": "node ./utils/ExampleRunner/build-all-examples-cli.js --build --fromRoot",

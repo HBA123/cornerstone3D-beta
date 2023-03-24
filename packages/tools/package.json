@@ -6,7 +6,10 @@
   "types": "dist/esm/index.d.ts",
   "module": "src/index.ts",
   "exports": {
-    ".": "./dist/umd/index.js"
+    ".": {
+      "import": "dist/umd/index.js",
+      "types": "dist/esm/index.d.ts"
+    }
   },
   "repository": "https://github.com/cornerstonejs/cornerstone3D-beta",
   "files": [
@@ -23,6 +26,7 @@
     "build:umd": "cross-env NODE_ENV=production webpack --config .webpack/webpack.prod.js",
     "build:all": "yarn run build:umd && yarn run build:esm",
     "build": "yarn run build:all",
+    "clean": "rimraf dist",
     "api-check": "api-extractor --debug run",
     "build:update-api": "yarn run build && api-extractor run --local",
     "prepublishOnly": "yarn run build",
